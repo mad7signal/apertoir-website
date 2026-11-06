@@ -4,7 +4,7 @@ Website voor apertoir: appinformatie, downloadlinks en privacyverklaring.
 ## Bestanden
 
 - `index.html`: landingspagina. Storelinks worden pas toegevoegd als de echte vermeldingen bestaan.
-- `privacy/index.html`: privacyverklaring versie 1.0, Nederlands en Engels, voor de huidige Free-testbuild. Bevestigd: Mark Amante, Supabase Free in Ierland, Resend Free, maximaal 12 maanden voor feedback en supportmails. De tekst beschrijft testadvertenties en claimt geen al werkende advertentietoestemming. Bij een publieke advertentierelease moet deze paragraaf aansluiten op de dan werkende toestemmingsflow.
+- `privacy/index.html`: privacyverklaring versie 1.1, Nederlands en Engels, voor de huidige Free-testbuild. Bevestigd: Mark Amante, Supabase Free in Ierland, Resend Free, maximaal 12 maanden voor feedback en supportmails. De tekst beschrijft testadvertenties, de UMP-controle bij appstart en heropenbare privacykeuzes waar Google dit vereist. Bij een publieke advertentierelease moet deze paragraaf aansluiten op de dan werkende toestemmingsflow.
 - `assets/style.css` en `assets/icon.png`: lokale stijlen en bestaand K2-appicoon.
 - `.nojekyll`: gewone statische bestanden, geen buildstap nodig.
 
@@ -23,8 +23,8 @@ Officiële uitleg: [publicatiebron](https://docs.github.com/en/pages/getting-sta
 ## Vóór AdMob en de publieke apprelease
 
 - De privacytekst voor de huidige testfase is uitgewerkt. De verantwoordelijke bewaakt ook de uitvoering: feedbackopschoning, supportmailverwijdering, privacyverzoeken en providerafspraken. Controleer eventuele wijzigingen vóór een nieuwe release.
-- Advertentieparagraaf afstemmen op de uiteindelijke build; UMP en heropenbare privacykeuzes werken nog niet in de huidige testbuild. Geen claims over verleende toestemming afleiden uit deze verklaring.
-- Nederlandse en Engelse tekst samen bijwerken. Versie 1.0 bevat geen conceptlabel of noindex; dit is geen claim van Play-goedkeuring of technische releasegereedheid.
+- Advertentieparagraaf afstemmen op de uiteindelijke build; UMP en heropenbare privacykeuzes zijn ingebouwd in de Free-testbuild; volledige toestelvalidatie en productieconfiguratie blijven afzonderlijke releasevoorwaarden. Geen claims over verleende toestemming afleiden uit deze verklaring.
+- Nederlandse en Engelse tekst samen bijwerken. Versie 1.1 bevat geen conceptlabel of noindex; dit is geen claim van Play-goedkeuring of technische releasegereedheid.
 - Pagina anoniem via HTTPS controleren. Werkende privacy-URL invullen in AdMob en later Play Console; in-app tekst synchroon houden.
 - App-ads.txt met de exacte regel uit AdMob toevoegen wanneer de ontwikkelaarswebsite wordt gekoppeld. Nog niet opgenomen of geverifieerd.
 - Echte Google Play-link toevoegen bij beschikbaarheid; App Store-link pas na iOS-publicatie. Geen fictieve downloadknoppen.
