@@ -5,7 +5,8 @@ Website voor apertoir: appinformatie, downloadlinks en privacyverklaring.
 
 - `index.html`: landingspagina. Storelinks worden pas toegevoegd als de echte vermeldingen bestaan.
 - `privacy/index.html`: privacyverklaring versie 1.2, Nederlands en Engels, voor de huidige Free-testbuild. Bevestigd: Mark Amante, Supabase Free in Ierland, Resend Free, maximaal 12 maanden voor feedback en supportmails. De tekst beschrijft testadvertenties, de UMP-controle bij appstart en heropenbare privacykeuzes waar Google dit vereist. Bij een publieke advertentierelease moet deze paragraaf aansluiten op de dan werkende toestemmingsflow.
-- `assets/style.css` en `assets/icon.png`: lokale stijlen en bestaand K2-appicoon.
+- `assets/style.css` en `assets/icon.png`: lokale stijlen en bestaand K2-appicoon. Het naamlogo naast het icoon volgt `ApertoirWordmark` uit de app: Outfit 500, gedraaide e en gouden i met schuin streepje. Ook de voettekst gebruikt het naamlogo.
+- `assets/fonts/`: hetzelfde lokale Outfit-lettertype als in de app, met bijbehorende SIL Open Font License. Geen externe fontaanvraag.
 - `.nojekyll`: gewone statische bestanden, geen buildstap nodig.
 
 Een klein lokaal script (`assets/theme.js`) biedt Systeem, Licht en Donker op de homepage en privacyverklaring. Standaard volgt de site de systeeminstelling, ook als die verandert. Een handmatige keuze wordt alleen lokaal in de browser bewaard; Systeem verwijdert die voorkeur. Zonder JavaScript volgt de CSS de systeeminstelling. Geen tracking, externe fonts of appgegevens. De website kan lokaal worden bekeken met `python -m http.server 8080 --bind 127.0.0.1` vanuit deze map.
