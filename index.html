@@ -7,13 +7,14 @@
   <meta name="theme-color" content="#F6F3FA">
   <title>apertoir — Lezen. Onthouden. Verder groeien.</title>
   <link rel="icon" href="assets/icon.png" type="image/png">
-  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/theme.js?v=20261107"></script>
+  <link rel="stylesheet" href="assets/style.css?v=20261107">
 </head>
 <body>
   <a class="skip" href="#inhoud">Ga naar inhoud</a>
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="apertoir startpagina"><img src="assets/icon.png" width="44" height="44" alt="">apertoir</a>
-    <nav aria-label="Hoofdnavigatie"><a href="#werkwijze">Zo werkt het</a><a href="privacy/">Privacy</a></nav>
+    <div class="header-actions"><nav aria-label="Hoofdnavigatie"><a href="#werkwijze">Zo werkt het</a><a href="privacy/">Privacy</a></nav><label class="theme-control" hidden><span class="sr-only">Weergave</span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor"/></svg><select data-theme-select><option value="system">Systeem</option><option value="light">Licht</option><option value="dark">Donker</option></select></label></div>
   </header>
   <main id="inhoud">
     <section class="hero wrap" aria-labelledby="hero-title">
