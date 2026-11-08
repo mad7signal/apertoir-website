@@ -31,3 +31,11 @@ Officiële uitleg: [publicatiebron](https://docs.github.com/en/pages/getting-sta
 - Echte Google Play-link toevoegen bij beschikbaarheid; App Store-link pas na iOS-publicatie. Geen fictieve downloadknoppen.
 
 De appbroncode, databasebestanden, API-sleutels, testlogs en privéjournalen horen niet in deze openbare repository.
+
+## Appschermen op de homepage
+
+De sectie ‘Een kijkje in apertoir’ toont de echte Free-interface voor leesritme, braindump en quiz. De zes PNG’s in `assets/screens/` zijn rechtstreeks gerenderd uit de Flutter-widgets met de eigen Outfit-font en uitsluitend fictieve voorbeeldinhoud, op 780 × 1688 pixels. Er zijn geen screenshots met accountgegevens of persoonlijke notities gebruikt. De website zet de beelden in een telefoonframe; de scherminhoud zelf is niet grafisch nagebouwd.
+
+Lichte en donkere beelden volgen de bestaande themakeuze. Een klik opent een toegankelijke vergroting; Escape of Sluiten sluit deze en geeft focus terug. Zonder JavaScript opent de afbeeldingslink rechtstreeks. De beelden worden vertraagd geladen en hebben vaste afmetingen en beschrijvende alternatieve tekst. De tekst vermeldt dat het ontwikkelschermen met voorbeeldinhoud zijn.
+
+De reproduceerbare capture-tool en QA-rapporten staan in de private projectrepository, niet in deze openbare websitebron.
