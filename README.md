@@ -34,8 +34,12 @@ De appbroncode, databasebestanden, API-sleutels, testlogs en privéjournalen hor
 
 ## Appschermen op de homepage
 
-De sectie ‘Een kijkje in apertoir’ toont de echte Free-interface voor leesritme, braindump en quiz. De zes PNG’s in `assets/screens/` zijn rechtstreeks gerenderd uit de Flutter-widgets met de eigen Outfit-font en uitsluitend fictieve voorbeeldinhoud, op 780 × 1688 pixels. Er zijn geen screenshots met accountgegevens of persoonlijke notities gebruikt. De website zet de beelden in een telefoonframe; de scherminhoud zelf is niet grafisch nagebouwd.
+De sectie ‘A look inside apertoir’ toont de echte Free-interface voor leesritme, braindump en quiz. De zes PNG’s in `assets/screens/` zijn rechtstreeks gerenderd uit de Flutter-widgets met de eigen Outfit-font en uitsluitend fictieve voorbeeldinhoud, op 780 × 1688 pixels. Er zijn geen screenshots met accountgegevens of persoonlijke notities gebruikt. De website zet de beelden in een telefoonframe; de scherminhoud zelf is niet grafisch nagebouwd.
 
 Lichte en donkere beelden volgen de bestaande themakeuze. Een klik opent een toegankelijke vergroting; Escape of Sluiten sluit deze en geeft focus terug. Zonder JavaScript opent de afbeeldingslink rechtstreeks. De beelden worden vertraagd geladen en hebben vaste afmetingen en beschrijvende alternatieve tekst. De tekst vermeldt dat het ontwikkelschermen met voorbeeldinhoud zijn.
 
 De reproduceerbare capture-tool en QA-rapporten staan in de private projectrepository, niet in deze openbare websitebron.
+
+## Standaardtaal
+
+De homepage en alle zes appafbeeldingen zijn vanaf 8 november 2026 standaard Engels, inclusief fictieve titels en notities, navigatie, alternatieve teksten en themakeuze. De app-taal van bezoekers wordt hierdoor niet gewijzigd. `/privacy/` opent met de bestaande Engelse verklaring; Nederlands blijft bereikbaar via `#nederlands`. Bestaande Nederlandse fragmentlinks blijven geldig. Privacyversie 1.5 verduidelijkt ook de bestaande gasttoegang en de huidige Free-wisroute op S16; geen wijziging van gegevensverwerking.
