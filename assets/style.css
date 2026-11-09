@@ -31,9 +31,11 @@
 @media(prefers-reduced-motion:reduce){.phone-frame{transition:none}.screen-link:hover .phone-frame{transform:none}}
 @media print{.screen-viewer{display:none}.screen-gallery{grid-template-columns:repeat(3,1fr)}.screen-enlarge{display:none}}
 
-/* The gallery explains the app; this adds only the external AI-chat step. */
-.quiz-maker{scroll-margin-top:24px;padding-block:0 72px}.quiz-maker-intro{max-width:680px;margin-inline:auto;text-align:center;scroll-margin-top:24px}.quiz-maker-intro h2{margin-bottom:20px}.quiz-maker-intro>p:last-child{max-width:56ch;color:var(--muted);margin:0 auto}
-@media(max-width:760px){.quiz-maker{padding-bottom:44px}}
+/* Complement the app gallery with the two optional AI-chat features. */
+.ai-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;padding-bottom:72px;scroll-margin-top:24px}
+.quiz-maker{min-width:0;border-top:1px solid var(--line);padding-top:28px;scroll-margin-top:24px}
+.quiz-maker-intro{scroll-margin-top:24px}.quiz-maker-intro h2{font-size:clamp(1.8rem,2.8vw,2.4rem);text-wrap:balance;margin-bottom:20px}.quiz-maker-intro>p:last-child{max-width:56ch;color:var(--muted);margin-bottom:0}
+@media(max-width:760px){.ai-tools{grid-template-columns:1fr;gap:32px;padding-bottom:44px}.quiz-maker{padding-top:24px}}
 
 /* Keep the hero in two complete phrases at every column width. */
 .hero-copy{min-width:0;container-type:inline-size}
